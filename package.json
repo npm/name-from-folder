@@ -1,6 +1,6 @@
 {
   "name": "@npmcli/name-from-folder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "files": [],
   "description": "Get the package name from a folder path",
   "repository": {
