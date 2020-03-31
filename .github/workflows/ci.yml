@@ -59,22 +59,3 @@ jobs:
       ################################################################################
       - name: Run tests
         run: npm test
-
-      ################################################################################
-      # Run coverage check
-      #
-      #   ASSUMPTIONS:
-      #     - The project has `tap` as a devDependency
-      #     - There is a script called "coverage" in the package.json
-      #
-      #   Coverage should only be posted once, we are choosing the latest LTS of
-      #   node, and ubuntu as the matrix point to post coverage from. We limit
-      #   to the 'push' event so that coverage ins't posted twice from the
-      #   pull-request event, and push event (line 3).
-      ################################################################################
-      - name: Run coverage report
-        if: github.event_name == 'push' && matrix.node-version == '12.x' && matrix.os == 'ubuntu-latest'
-        run: npm run coverage
-        env:
-          # The environment variable name is leveraged by `tap`
-          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
