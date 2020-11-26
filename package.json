@@ -22,6 +22,6 @@
     "check-coverage": true
   },
   "devDependencies": {
-    "tap": "^14.10.7"
+    "tap": "^14.11.0"
   }
 }
