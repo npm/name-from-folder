@@ -9,7 +9,7 @@
   "description": "Get the package name from a folder path",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/name-from-folder.git"
+    "url": "git+https://github.com/npm/name-from-folder.git"
   },
   "author": "GitHub Inc.",
   "license": "ISC",
@@ -32,7 +32,7 @@
   },
   "templateOSS": {
     "//@npmcli/template-oss": "This file is partially managed by @npmcli/template-oss. Edits may be overwritten.",
-    "version": "4.21.4"
+    "version": "4.22.0"
   },
   "tap": {
     "nyc-arg": [
