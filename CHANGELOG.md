@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.0.0](https://github.com/npm/name-from-folder/compare/v3.0.0...v4.0.0) (2025-10-22)
+### ⚠️ BREAKING CHANGES
+* align to npm 11 node engine range (#67)
+### Bug Fixes
+* [`503e5bf`](https://github.com/npm/name-from-folder/commit/503e5bf49c9e7c4826fb9585fc3031bd08056fb4) [#67](https://github.com/npm/name-from-folder/pull/67) align to npm 11 node engine range (#67) (@owlstronaut)
+### Chores
+* [`cfc9588`](https://github.com/npm/name-from-folder/commit/cfc95884a90ddf542570505f208b009d3968359a) [#66](https://github.com/npm/name-from-folder/pull/66) Bump @npmcli/template-oss from 4.26.0 to 4.27.1 (#66) (@dependabot[bot], @npm-cli-bot)
+* [`e3d5220`](https://github.com/npm/name-from-folder/commit/e3d5220ba7e0bebdf478df70d650b8e01c4425e6) [#65](https://github.com/npm/name-from-folder/pull/65) Bump @npmcli/template-oss from 4.25.1 to 4.26.0 (#65) (@dependabot[bot], @npm-cli-bot)
+* [`b589be5`](https://github.com/npm/name-from-folder/commit/b589be5acfa6ccd854ef35c0dd6f18e2b052a3ed) [#64](https://github.com/npm/name-from-folder/pull/64) Bump @npmcli/template-oss from 4.25.0 to 4.25.1 (#64) (@dependabot[bot], @npm-cli-bot)
+* [`81698ac`](https://github.com/npm/name-from-folder/commit/81698acb22834cd93edb56d1336d7a12fa586020) [#63](https://github.com/npm/name-from-folder/pull/63) Bump @npmcli/template-oss from 4.24.4 to 4.25.0 (#63) (@dependabot[bot], @npm-cli-bot)
+* [`8f8da72`](https://github.com/npm/name-from-folder/commit/8f8da72f4c808c2e0e72ddbb9f01fe62d43718ed) [#62](https://github.com/npm/name-from-folder/pull/62) Bump @npmcli/template-oss from 4.24.3 to 4.24.4 (#62) (@dependabot[bot], @npm-cli-bot)
+* [`56badc6`](https://github.com/npm/name-from-folder/commit/56badc64f23ec27d2324070472bc9b04249f9f20) [#61](https://github.com/npm/name-from-folder/pull/61) postinstall workflow updates (#61) (@owlstronaut)
+* [`b740158`](https://github.com/npm/name-from-folder/commit/b7401580214b0fdcd9e5629ff674d53d8fad29b8) [#60](https://github.com/npm/name-from-folder/pull/60) Bump @npmcli/template-oss from 4.23.3 to 4.24.3 (#60) (@dependabot[bot], @npm-cli-bot)
+
 ## [3.0.0](https://github.com/npm/name-from-folder/compare/v2.0.0...v3.0.0) (2024-09-24)
 ### ⚠️ BREAKING CHANGES
 * `@npmcli/name-from-folder` now supports node `^18.17.0 || >=20.5.0`
