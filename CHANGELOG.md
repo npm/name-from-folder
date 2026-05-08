@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.0.0](https://github.com/npm/name-from-folder/compare/v4.0.0...v5.0.0) (2026-05-08)
+### ⚠️ BREAKING CHANGES
+* `@npmcli/name-from-folder` now supports node `^22.22.2 || ^24.15.0 || >=26.0.0`
+* template-oss-apply
+### Features
+* [`02f765f`](https://github.com/npm/name-from-folder/commit/02f765f09d9ace88e531a51f1056538ac3c9b5fa) [#77](https://github.com/npm/name-from-folder/pull/77) bump to new node engine range (@owlstronaut)
+* [`bde8f86`](https://github.com/npm/name-from-folder/commit/bde8f86297ffcad0bcb20d432496b80571aeff55) [#77](https://github.com/npm/name-from-folder/pull/77) template-oss-apply (@owlstronaut)
+### Chores
+* [`1b5270b`](https://github.com/npm/name-from-folder/commit/1b5270bb8c417b53054809719eb5d1916916a17f) [#77](https://github.com/npm/name-from-folder/pull/77) template-oss-apply (@owlstronaut)
+* [`0d76ec3`](https://github.com/npm/name-from-folder/commit/0d76ec3c6c07f9fa807759ce8c97d2709afe4f19) [#75](https://github.com/npm/name-from-folder/pull/75) Bump @npmcli/template-oss from 4.29.0 to 4.30.0 (#75) (@dependabot[bot], @npm-cli-bot)
+* [`2b260b8`](https://github.com/npm/name-from-folder/commit/2b260b83b9de2a8b941b683b428990ea3b7657ad) [#74](https://github.com/npm/name-from-folder/pull/74) Bump @npmcli/template-oss from 4.28.1 to 4.29.0 (#74) (@dependabot[bot], @npm-cli-bot)
+* [`ad58e05`](https://github.com/npm/name-from-folder/commit/ad58e05ea4e1c9fdb2695128ab67509aa4f64d0b) [#72](https://github.com/npm/name-from-folder/pull/72) remove tap (@owlstronaut)
+* [`9230a43`](https://github.com/npm/name-from-folder/commit/9230a43b6cfe15f6098490f90b6ee0e5af7b30d2) [#72](https://github.com/npm/name-from-folder/pull/72) swap from tap to built-in node:test (@owlstronaut)
+* [`b5ff919`](https://github.com/npm/name-from-folder/commit/b5ff91953a518b302196552590d192a4b000d64e) [#71](https://github.com/npm/name-from-folder/pull/71) Bump @npmcli/template-oss from 4.28.0 to 4.28.1 (#71) (@dependabot[bot], @npm-cli-bot)
+* [`a89ca5f`](https://github.com/npm/name-from-folder/commit/a89ca5f402e9fd6b95ae346b8ad622a417bb1ef3) [#70](https://github.com/npm/name-from-folder/pull/70) Bump @npmcli/template-oss from 4.27.1 to 4.28.0 (#70) (@dependabot[bot], @npm-cli-bot)
+* [`4b1aa42`](https://github.com/npm/name-from-folder/commit/4b1aa42f51301a6b166baffdced1d66c8831762d) [#69](https://github.com/npm/name-from-folder/pull/69) Bump @npmcli/eslint-config from 5.1.0 to 6.0.0 (#69) (@dependabot[bot])
+
 ## [4.0.0](https://github.com/npm/name-from-folder/compare/v3.0.0...v4.0.0) (2025-10-22)
 ### ⚠️ BREAKING CHANGES
 * align to npm 11 node engine range (#67)
